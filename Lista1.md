@@ -38,6 +38,20 @@ Operação impossível
 
 **h) $\det(A)$**
 
+$$\det(A)=\sum_{i=1}^n(-1)^{1+i}\cdot a_{1i}\cdot A_{1i}$$
+
+$$\det(A)=(-1)^{1+1}\cdot1\cdot\begin{vmatrix}5 & 6\\ 8 & 9\end{vmatrix}+(-1)^{1+2}\cdot2\cdot\begin{vmatrix}4 & 6\\ 7 & 9\end{vmatrix}+(-1)^{1+3}\cdot3\cdot\begin{vmatrix}4 & 5\\ 7 & 8\end{vmatrix}$$
+
+$$\det(A)=(-1)^2\cdot(-3)+(-1)^3\cdot2\cdot(-6)+(-1)^4\cdot3\cdot(-3)$$
+
+$$\det(A)=-3+(-1)\cdot(-12)-9$$
+
+$$\det(A)=-3+(-1)\cdot(-12)-9$$
+
+$$\det(A)=-3+12-9=0$$
+
 **i) A^-1**
+
+Operação impossível, pois $\det(A)=0$
 
 **2. $(AB)^T=B^TA^T$? Justifique a sua resposta.**
