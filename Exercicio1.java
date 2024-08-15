@@ -12,12 +12,12 @@ class Main {
         System.out.print("Digite o número de colunas: ");
         int colunas = scanner.nextInt();
 
-        int[][] A = new int[linhas][colunas];
+        double[][] A = new double[linhas][colunas];
 
         System.out.println("Digite os elementos da matriz:");
         for (int i = 0; i < linhas; i++) {
             for (int j = 0; j < colunas; j++) {
-                A[i][j] = scanner.nextInt();
+                A[i][j] = scanner.nextDouble();
             }
         }
 
