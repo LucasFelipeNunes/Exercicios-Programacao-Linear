@@ -66,4 +66,6 @@ Utilizando como exemplo as matrizes $A$ e $B$ do exercício anterior:
 
 $$(AB)^T=B^TA^T$$
 
-$$$$
+$$\begin{bmatrix}4 & 6 \\ 10 & 15 \\ 12 & 24\end{bmatrix}^T=\begin{bmatrix}1 & 2 \\ 0 & -1 \\ 1 & 2\end{bmatrix}^T\cdot\begin{bmatrix}1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9\end{bmatrix}^T$$
+
+$$\begin{bmatrix}4 & 10 & 12 \\ 6 & 15 & 24\end{bmatrix}=\begin{bmatrix}1 & 0 & 1 \\ 2 & -1 & 2\end{bmatrix}\cdot\begin{bmatrix}1 & 4 & 7 \\ 2 & 5 & 8 \\ 3 & 6 & 9\end{bmatrix}$$
