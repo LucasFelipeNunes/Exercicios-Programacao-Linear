@@ -69,3 +69,11 @@ $$(AB)^T=B^TA^T$$
 $$\begin{bmatrix}4 & 6 \\ 10 & 15 \\ 12 & 24\end{bmatrix}^T=\begin{bmatrix}1 & 2 \\ 0 & -1 \\ 1 & 2\end{bmatrix}^T\cdot\begin{bmatrix}1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9\end{bmatrix}^T$$
 
 $$\begin{bmatrix}4 & 10 & 12 \\ 6 & 15 & 24\end{bmatrix}=\begin{bmatrix}1 & 0 & 1 \\ 2 & -1 & 2\end{bmatrix}\cdot\begin{bmatrix}1 & 4 & 7 \\ 2 & 5 & 8 \\ 3 & 6 & 9\end{bmatrix}$$
+
+$$\begin{bmatrix}4 & 10 & 12 \\ 6 & 15 & 24\end{bmatrix}=\begin{bmatrix}1\cdot1+0\cdot2+1\cdot3 & 1\cdot4+0\cdot5+1\cdot6 & 1\cdot7+0\cdot8+1\cdot9 \\ 2\cdot1+(-1)\cdot2+2\cdot3 & 2\cdot4+(-1)\cdot5+2\cdot6 & 2\cdot7+(-1)\cdot8+2\cdot9\end{bmatrix}$$
+
+$$\begin{bmatrix}4 & 10 & 12 \\ 6 & 15 & 24\end{bmatrix}=\begin{bmatrix}1+3 & 4+6 & 7+9 \\ 2-2+6 & 8-5+12 & 14-8+18\end{bmatrix}$$
+
+$$\begin{bmatrix}4 & 10 & 12 \\ 6 & 15 & 24\end{bmatrix}=\begin{bmatrix}4 & 10 & 16 \\ 6 & 15 & 24\end{bmatrix}$$
+
+Portanto, a afirmação $(AB)^T=B^TA^T$? é verdadeira.
