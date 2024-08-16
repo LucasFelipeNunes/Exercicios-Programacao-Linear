@@ -30,7 +30,13 @@ $$B^T=\begin{bmatrix}1 & 0 & 1 \\ 2 & -1 & 2\end{bmatrix}$$
 
 **f) $AB$**
 
-$$AB=\begin{bmatrix}1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9\end{bmatrix}\cdot\begin{bmatrix}1 & 2 \\ 0 & -1 \\ 1 & 2\end{bmatrix}=\begin{bmatrix}fazer depois\end{bmatrix}$$
+$$AB=\begin{bmatrix}1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9\end{bmatrix}\cdot\begin{bmatrix}1 & 2 \\ 0 & -1 \\ 1 & 2\end{bmatrix}$$
+
+$$AB=\begin{bmatrix}1\cdot1+2\cdot0+3\cdot1 & 1\cdot2+2\cdot(-1)+3\cdot2 \\ 4\cdot1+5\cdot0+6\cdot1 & 4\cdot2+5\cdot(-1)+6\cdot2 \\ 7\cdot1+8\cdot0+9\cdot1 & 7\cdot2+8\cdot(-1)+9\cdot2\end{bmatrix}$$
+
+$$AB=\begin{bmatrix}1+3 & 2-2+6 \\ 4+6 & 8-5+12 \\ 7+9 & 14-8+18\end{bmatrix}$$
+
+$$AB=\begin{bmatrix}4 & 6 \\ 10 & 15 \\ 12 & 24\end{bmatrix}$$
 
 **g) $BA$**
 
@@ -55,3 +61,9 @@ $$\det(A)=-3+12-9=0$$
 Operação impossível, pois $\det(A)=0$
 
 **2. $(AB)^T=B^TA^T$? Justifique a sua resposta.**
+
+Utilizando como exemplo as matrizes $A$ e $B$ do exercício anterior:
+
+$$(AB)^T=B^TA^T$$
+
+$$$$
