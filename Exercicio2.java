@@ -40,7 +40,12 @@ class Main {
 						System.out.println("Operação não definida; o número de colunas da primeira matriz é diferente do número de linhas da segunda.");
 					}
 					else{
-						// Escrever depois
+						double[][] C2 = new double[A2.length][B2[0].length];
+						for(int j = 0;j < C2.length;j++){
+							for(int k = 0;k < C2[0].length;k++){
+								// Escrever depois
+							}
+						}
 					}
 				}
 				else{
