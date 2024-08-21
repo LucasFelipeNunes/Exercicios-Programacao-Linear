@@ -55,7 +55,9 @@ $$\begin{bmatrix}1 & 0 & 0 & \mid & 1 \\\\ 0 & 1 & \frac25 & \mid & \frac75 \\\\
 
 - Subtraindo $L_2$ por $a_{13}L_3=-\frac{2L_3}5$
 
-$$\begin{bmatrix}1 & 0 & 0 & \mid & 1 \\\\ 0 & 1 & \frac25 & \mid & 1 \\\\ 0 & 0 & 1 & \mid & 1\end{bmatrix}$$
+$$\begin{bmatrix}1 & 0 & 0 & \mid & 1 \\\\ 0 & 1 & 0 & \mid & 1 \\\\ 0 & 0 & 1 & \mid & 1\end{bmatrix}$$
+
+$$x=\begin{bmatrix}1 \\\\ 1 \\\\ 1\end{bmatrix}$$
 
 b.
 
