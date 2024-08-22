@@ -125,8 +125,82 @@ $$\begin{bmatrix}
 - Subtraindo $L_1$ por $a_{12}L_1=\frac{7L_2}5$
 
 $$\begin{bmatrix}
-1 & 0 & 4 & 1 & \mid & 3\frac{13}5 \\\\ 
+1 & 0 & 4 & 1 & \mid & 5 \\\\ 
 0 & 1 & -2 & 0 & \mid & -2 \\\\ 
 0 & 0 & 2 & 3 & \mid & 2\\\\
 0 & 0 & 3 & 5 & \mid & 3 
 \end{bmatrix}$$
+
+- Dividindo $L_3$ por $a_{33}=2$
+
+$$\begin{bmatrix}
+1 & 0 & 4 & 1 & \mid & 5 \\\\ 
+0 & 1 & -2 & 0 & \mid & -2 \\\\ 
+0 & 0 & 1 & \frac32 & \mid & 1\\\\
+0 & 0 & 3 & 5 & \mid & 3 
+\end{bmatrix}$$
+
+- Subtraindo $L_4$ por $a_{43}L_3=3L_3$
+
+$$\begin{bmatrix}
+1 & 0 & 4 & 1 & \mid & 5 \\\\ 
+0 & 1 & -2 & 0 & \mid & -2 \\\\ 
+0 & 0 & 1 & \frac32 & \mid & 1\\\\
+0 & 0 & 0 & \frac12 & \mid & 0 
+\end{bmatrix}$$
+
+- Subtraindo $L_1$ por $a_{13}L_3=4L_3$
+
+$$\begin{bmatrix}
+1 & 0 & 0 & -3 & \mid & 1 \\\\ 
+0 & 1 & -2 & 0 & \mid & -2 \\\\ 
+0 & 0 & 1 & \frac32 & \mid & 1\\\\
+0 & 0 & 0 & \frac12 & \mid & 0 
+\end{bmatrix}$$
+
+- Subtraindo $L_2$ por $a_{23}L_3=-2L_3$
+
+$$\begin{bmatrix}
+1 & 0 & 0 & -3 & \mid & 1 \\\\ 
+0 & 1 & 0 & 3 & \mid & 0 \\\\ 
+0 & 0 & 1 & \frac32 & \mid & 1\\\\
+0 & 0 & 0 & \frac12 & \mid & 0 
+\end{bmatrix}$$
+
+- Dividindo $L_4$ por $a_{44}=\frac12$
+
+$$\begin{bmatrix}
+1 & 0 & 0 & -3 & \mid & 1 \\\\ 
+0 & 1 & 0 & 3 & \mid & 0 \\\\ 
+0 & 0 & 1 & \frac32 & \mid & 1\\\\
+0 & 0 & 0 & 1 & \mid & 0 
+\end{bmatrix}$$
+
+- Subtraindo $L_1$ por $a_{14}L_4=-3L_4$
+
+$$\begin{bmatrix}
+1 & 0 & 0 & 0 & \mid & 1 \\\\ 
+0 & 1 & 0 & 3 & \mid & 0 \\\\ 
+0 & 0 & 1 & \frac32 & \mid & 1\\\\
+0 & 0 & 0 & 1 & \mid & 0 
+\end{bmatrix}$$
+
+- Subtraindo $L_2$ por $a_{24}L_4=3L_4$
+
+$$\begin{bmatrix}
+1 & 0 & 0 & 0 & \mid & 1 \\\\ 
+0 & 1 & 0 & 0 & \mid & 0 \\\\ 
+0 & 0 & 1 & \frac32 & \mid & 1\\\\
+0 & 0 & 0 & 1 & \mid & 0 
+\end{bmatrix}$$
+
+- Subtraindo $L_3$ por $a_{34}L_3=\frac{3L_3}2$
+
+$$\begin{bmatrix}
+1 & 0 & 0 & 0 & \mid & 1 \\\\ 
+0 & 1 & 0 & 0 & \mid & 0 \\\\ 
+0 & 0 & 1 & 0 & \mid & 1\\\\
+0 & 0 & 0 & 1 & \mid & 0 
+\end{bmatrix}$$
+
+$$x=\begin{bmatrix}1 \\\\ 0 \\\\ 1 \\\\ 0\end{bmatrix}$$
