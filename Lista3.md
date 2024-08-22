@@ -137,9 +137,86 @@ $$x=\begin{bmatrix}-5 \\\\ 2 \\\\ 4\end{bmatrix}$$
 
 c.
 
+$$\begin{cases}4x_1+2x_2+x_3=6 \\\\ 
+x_1+4x_2-x_3=2 \\\\ 2x_1+6x_2-2x_3=3\end{cases}$$
 
+$$\begin{bmatrix}
+4 & 2 & 1 & \mid & 6 \\\\ 
+1 & 4 & -1 & \mid & 2 \\\\ 
+2 & 6 & -2 & \mid & 3\\\\
+\end{bmatrix}$$
 
+- Trocando $L_1$ e $L_2$:
 
+$$\begin{bmatrix}
+1 & 4 & -1 & \mid & 2 \\\\ 
+4 & 2 & 1 & \mid & 6 \\\\ 
+2 & 6 & -2 & \mid & 3\\\\
+\end{bmatrix}$$
+
+- Subtraindo $L_2$ por $a_{21}L_1=4L_1$:
+
+$$\begin{bmatrix}
+1 & 4 & -1 & \mid & 2 \\\\ 
+0 & -14 & 5 & \mid & -2 \\\\ 
+2 & 6 & -2 & \mid & 3\\\\
+\end{bmatrix}$$
+
+- Subtraindo $L_3$ por $a_{31}L_1=2L_1$:
+
+$$\begin{bmatrix}
+1 & 4 & -1 & \mid & 2 \\\\ 
+0 & -14 & 5 & \mid & -2 \\\\ 
+0 & -2 & 0 & \mid & -1\\\\
+\end{bmatrix}$$
+
+- Trocando $L_2$ e $L_3$
+
+$$\begin{bmatrix}
+1 & 4 & -1 & \mid & 2 \\\\ 
+0 & -2 & 0 & \mid & -1\\\\
+0 & -14 & 5 & \mid & -2 \\\\ 
+\end{bmatrix}$$
+
+- Dividindo a nova $L_2$ por $a_{22}=-2$
+
+$$\begin{bmatrix}
+1 & 4 & -1 & \mid & 2 \\\\ 
+0 & 1 & 0 & \mid & \frac12\\\\
+0 & -14 & 5 & \mid & -2 \\\\ 
+\end{bmatrix}$$
+
+- Subtraindo $L_3$ por $a_{32}L_2=-14L_2$:
+
+$$\begin{bmatrix}
+1 & 4 & -1 & \mid & 2 \\\\ 
+0 & 1 & 0 & \mid & \frac12\\\\
+0 & 0 & 5 & \mid & 5 \\\\ 
+\end{bmatrix}$$
+
+- Subtraindo $L_1$ por $a_{12}L_2=4L_2$:
+
+$$\begin{bmatrix}
+1 & 0 & -1 & \mid & 0 \\\\ 
+0 & 1 & 0 & \mid & \frac12\\\\
+0 & 0 & 5 & \mid & 5 \\\\ 
+\end{bmatrix}$$
+
+- Dividindo $L_3$ por $a_{33}=5$
+
+$$\begin{bmatrix}
+1 & 0 & -1 & \mid & 0 \\\\ 
+0 & 1 & 0 & \mid & \frac12\\\\
+0 & 0 & 1 & \mid & 1 \\\\ 
+\end{bmatrix}$$
+
+- Subtraindo $L_1$ por $a_{13}L_3=-L_3$:
+
+$$\begin{bmatrix}
+1 & 0 & 0 & \mid & 1 \\\\ 
+0 & 1 & 0 & \mid & \frac12\\\\
+0 & 0 & 1 & \mid & 1 \\\\ 
+\end{bmatrix}$$
 d.
 
 $$\begin{cases}5x_1+7x_2+6x_3+5x_4=11 \\\\ 7x_1+10x_2+8x_3+7x_4=15 \\\\ 6x_1+8x_2+10x_3+9x_4=17 \\\\ 5x_1+7x_2+9x_3+10x_4=14\end{cases}$$
