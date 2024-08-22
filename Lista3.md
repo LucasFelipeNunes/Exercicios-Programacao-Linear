@@ -204,3 +204,27 @@ $$\begin{bmatrix}
 \end{bmatrix}$$
 
 $$x=\begin{bmatrix}1 \\\\ 0 \\\\ 1 \\\\ 0\end{bmatrix}$$
+
+e.
+
+f.
+
+**3. Resolva o sistema linear abaixo por inversão de matriz:**
+
+$$\begin{cases}3x_1+x_2=23 \\\\ x_1-x_2=-3\end{cases}$$
+
+$$A\mid b=\begin{bmatrix} 3 & 1 & \mid & 23 \\\\ 1 & -1 & \mid & -3\end{bmatrix}$$
+
+$$A=\begin{bmatrix} 3 & 1 \\\\ 1 & -1\end{bmatrix}$$
+
+$$\det(A)=3\cdot(-1)-1\cdot1=-3-1=-4$$
+
+$$A^{-1}=\begin{bmatrix} \frac{-1}{-4} & \frac{-1}{-4} \\\\ \frac{-1}{-4} & \frac3{-4}\end{bmatrix}$$
+
+$$A^{-1}=\begin{bmatrix} \frac14 & \frac14 \\\\ \frac14 & -\frac34\end{bmatrix}$$
+
+$$x=A^{-1}\cdot b$$
+
+$$x=\begin{bmatrix} \frac14 & \frac14 \\\\ \frac14 & -\frac34\end{bmatrix}\cdot\begin{bmatrix} 23 \\\\ -3\end{bmatrix}$$
+
+$$x=\begin{bmatrix} \frac{23}4-\frac34 \\\\ \frac{23}4+\frac94\end{bmatrix}=\begin{bmatrix}\frac{20}4 \\\\ \frac{32}4\end{bmatrix}=\begin{bmatrix}5\\\\8\end{bmatrix}$$
