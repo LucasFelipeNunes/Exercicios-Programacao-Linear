@@ -359,9 +359,8 @@ $$\begin{bmatrix}
 
 $$x=\begin{bmatrix}1 \\\\ 0 \\\\ 1 \\\\ 0\end{bmatrix}$$
 
-e.
-
-f.
+e. Não existe solução
+f. Existem infinitas soluções
 
 **3. Resolva o sistema linear abaixo por inversão de matriz:**
 
