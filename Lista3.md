@@ -66,7 +66,7 @@ $$\begin{cases}2x_1+2x_2+4x_3=10 \\\\ x_1+x_2+3x_3=9 \\\\ x_1+3x_2+4x_3=17\end{c
 $$\begin{bmatrix}
 2 & 2 & 4 & \mid & 10 \\\\ 
 1 & 1 & 3 & \mid & 9 \\\\ 
-1 & 3 & 4 & \mid & 16\\\\
+1 & 3 & 4 & \mid & 17\\\\
 \end{bmatrix}$$
 
 - Dividindo $L_1$ por $a_{11}=2$:
@@ -74,7 +74,7 @@ $$\begin{bmatrix}
 $$\begin{bmatrix}
 1 & 1 & 2 & \mid & 5 \\\\ 
 1 & 1 & 3 & \mid & 9 \\\\ 
-1 & 3 & 4 & \mid & 16\\\\
+1 & 3 & 4 & \mid & 17\\\\
 \end{bmatrix}$$
 
 - Subtraindo $L_2$ por $a_{21}L_1=L_1$:
@@ -82,7 +82,7 @@ $$\begin{bmatrix}
 $$\begin{bmatrix}
 1 & 1 & 2 & \mid & 5 \\\\ 
 0 & 0 & 1 & \mid & 4 \\\\ 
-1 & 3 & 4 & \mid & 16\\\\
+1 & 3 & 4 & \mid & 17\\\\
 \end{bmatrix}$$
 
 - Subtraindo $L_3$ por $a_{31}L_1=L_1$:
@@ -90,14 +90,14 @@ $$\begin{bmatrix}
 $$\begin{bmatrix}
 1 & 1 & 2 & \mid & 5 \\\\ 
 0 & 0 & 1 & \mid & 4 \\\\ 
-0 & 2 & 2 & \mid & 9\\\\
+0 & 2 & 2 & \mid & 12\\\\
 \end{bmatrix}$$
 
 - Trocando $L_2$ e $L_3$:
 
 $$\begin{bmatrix}
 1 & 1 & 2 & \mid & 5 \\\\ 
-0 & 2 & 2 & \mid & 9\\\\
+0 & 2 & 2 & \mid & 12\\\\
 0 & 0 & 1 & \mid & 4 \\\\ 
 \end{bmatrix}$$
 
@@ -105,40 +105,53 @@ $$\begin{bmatrix}
 
 $$\begin{bmatrix}
 1 & 1 & 2 & \mid & 5 \\\\ 
-0 & 1 & 1 & \mid & \frac92\\\\
+0 & 1 & 1 & \mid & 6\\\\
 0 & 0 & 1 & \mid & 4 \\\\ 
 \end{bmatrix}$$
 
 - Subtraindo $L_1$ por $a_{12}L_2=L_2$
 
 $$\begin{bmatrix}
-1 & 0 & 1 & \mid & \frac92 \\\\ 
-0 & 1 & 1 & \mid & \frac92\\\\
+1 & 0 & 1 & \mid & -1\\\\ 
+0 & 1 & 1 & \mid & 6\\\\
 0 & 0 & 1 & \mid & 4 \\\\ 
 \end{bmatrix}$$
 
 - Subtraindo $L_1$ por $a_{13}L_3=L_3$
 
 $$\begin{bmatrix}
-1 & 0 & 0 & \mid & \frac12 \\\\ 
-0 & 1 & 1 & \mid & \frac92\\\\
+1 & 0 & 0 & \mid & -5 \\\\ 
+0 & 1 & 1 & \mid & 6\\\\
 0 & 0 & 1 & \mid & 4 \\\\ 
 \end{bmatrix}$$
 
+- Subtraindo $L_2$ por $a_{23}L_3=L_3$
+
+$$\begin{bmatrix}
+1 & 0 & 0 & \mid & -5 \\\\ 
+0 & 1 & 0 & \mid & 2\\\\
+0 & 0 & 1 & \mid & 4 \\\\ 
+\end{bmatrix}$$
+
+$$x=\begin{bmatrix}-5 \\\\ 2 \\\\ 4\end{bmatrix}$$
+
 c.
+
+
+
 
 d.
 
-$$\begin{cases}5x_1+7x_2+6x_3+5x_4=11 \\\\ 7x_1+10x_2+8x_3+7x_4=15 \\\\ 6x_1+8x_2+10x_3+9x_4=16 \\\\ 5x_1+7x_2+9x_3+10x_4=14\end{cases}$$
+$$\begin{cases}5x_1+7x_2+6x_3+5x_4=11 \\\\ 7x_1+10x_2+8x_3+7x_4=15 \\\\ 6x_1+8x_2+10x_3+9x_4=17 \\\\ 5x_1+7x_2+9x_3+10x_4=14\end{cases}$$
 
-$$\begin{bmatrix}5 & 7 & 6 & 5 & \mid & 11 \\\\ 7 & 10 & 8 & 7 & \mid & 15 \\\\ 6 & 8 & 10 & 9 & \mid & 16\\\\ 5 & 7 & 9 & 10 & \mid & 14 \end{bmatrix}$$
+$$\begin{bmatrix}5 & 7 & 6 & 5 & \mid & 11 \\\\ 7 & 10 & 8 & 7 & \mid & 15 \\\\ 6 & 8 & 10 & 9 & \mid & 17\\\\ 5 & 7 & 9 & 10 & \mid & 14 \end{bmatrix}$$
 
 - Dividindo $L_1$ por $a_{11}=5$
 
 $$\begin{bmatrix}
 1 & \frac75 & \frac65 & 1 & \mid & \frac{11}5 \\\\ 
 7 & 10 & 8 & 7 & \mid & 15 \\\\ 
-6 & 8 & 10 & 9 & \mid & 16\\\\
+6 & 8 & 10 & 9 & \mid & 17\\\\
 5 & 7 & 9 & 10 & \mid & 14 \end{bmatrix}$$
 
 - Subtraindo $L_2$ por $a_{21}L_1=7L_1$
@@ -146,7 +159,7 @@ $$\begin{bmatrix}
 $$\begin{bmatrix}
 1 & \frac75 & \frac65 & 1 & \mid & \frac{11}5 \\\\ 
 0 & \frac15 & -\frac25 & 0 & \mid & -\frac25 \\\\ 
-6 & 8 & 10 & 9 & \mid & 16\\\\ 
+6 & 8 & 10 & 9 & \mid & 17\\\\ 
 5 & 7 & 9 & 10 & \mid & 14 
 \end{bmatrix}$$
 
