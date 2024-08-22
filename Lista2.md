@@ -1,3 +1,5 @@
+# Lista de Exercícios 2 - Matrizes
+
 **1. Use a notação matricial abreviada (A|b) para representar os seguintes sistemas de equações lineares:**
 
 a.
