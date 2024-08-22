@@ -61,3 +61,12 @@ $$x=\begin{bmatrix}1 \\\\ 1 \\\\ 1\end{bmatrix}$$
 
 b.
 
+c.
+
+d.
+
+$$\begin{cases}5x_1+7x_2+6x_3+5x_4=11 \\\\ 7x_1+10x_2+8x_3+7x_4=15 \\\\ 6x_1+8x_2+10x_3+9x_4=16 \\\\ 5x_1+7x_2+9x_3+10x_4=14\end{cases}$$
+
+$$\begin{bmatrix}5 & 7 & 6 & 5 & \mid & 11 \\\\ 7 & 10 & 8 & 7 & \mid & 15 \\\\ 6 & 8 & 10 & 9 & \mid & 16\\\\ 5 & 7 & 9 & 10 & \mid & 14 \end{bmatrix}$$
+
+- Dividindo $L_1$ por $a_{11}=5$
