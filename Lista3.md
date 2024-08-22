@@ -104,3 +104,29 @@ $$\begin{bmatrix}
 0 & 0 & 3 & 5 & \mid & 3 
 \end{bmatrix}$$
 
+- Dividindo $L_2$ por $a_{22}=\frac15$
+
+$$\begin{bmatrix}
+1 & \frac75 & \frac65 & 1 & \mid & \frac{11}5 \\\\ 
+0 & 1 & -2 & 0 & \mid & -2 \\\\ 
+0 & -\frac25 & 2\frac45 & 3 & \mid & 2\frac45\\\\
+0 & 0 & 3 & 5 & \mid & 3 
+\end{bmatrix}$$
+
+- Subtraindo $L_3$ por $a_{32}L_2=-\frac{2L_2}5$
+
+$$\begin{bmatrix}
+1 & \frac75 & \frac65 & 1 & \mid & \frac{11}5 \\\\ 
+0 & 1 & -2 & 0 & \mid & -2 \\\\ 
+0 & 0 & 2 & 3 & \mid & 2\\\\
+0 & 0 & 3 & 5 & \mid & 3 
+\end{bmatrix}$$
+
+- Subtraindo $L_1$ por $a_{12}L_1=\frac{7L_2}5$
+
+$$\begin{bmatrix}
+1 & 0 & 4 & 1 & \mid & 3\frac{13}5 \\\\ 
+0 & 1 & -2 & 0 & \mid & -2 \\\\ 
+0 & 0 & 2 & 3 & \mid & 2\\\\
+0 & 0 & 3 & 5 & \mid & 3 
+\end{bmatrix}$$
