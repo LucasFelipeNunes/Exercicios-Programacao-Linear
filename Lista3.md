@@ -70,3 +70,33 @@ $$\begin{cases}5x_1+7x_2+6x_3+5x_4=11 \\\\ 7x_1+10x_2+8x_3+7x_4=15 \\\\ 6x_1+8x_
 $$\begin{bmatrix}5 & 7 & 6 & 5 & \mid & 11 \\\\ 7 & 10 & 8 & 7 & \mid & 15 \\\\ 6 & 8 & 10 & 9 & \mid & 16\\\\ 5 & 7 & 9 & 10 & \mid & 14 \end{bmatrix}$$
 
 - Dividindo $L_1$ por $a_{11}=5$
+
+$$\begin{bmatrix}1 & \frac75 & \frac65 & 1 & \mid & \frac{11}5 \\\\ 7 & 10 & 8 & 7 & \mid & 15 \\\\ 6 & 8 & 10 & 9 & \mid & 16\\\\ 5 & 7 & 9 & 10 & \mid & 14 \end{bmatrix}$$
+
+- Subtraindo $L_2$ por $a_{21}L_1=7L_1$
+
+ $$\begin{bmatrix}
+ 1 & \frac75 & \frac65 & 1 & \mid & \frac{11}5 \\\\ 
+ 0 & 8\frac35 & 6\frac45 & 6 & \mid & 12\frac45 \\\\ 
+ 6 & 8 & 10 & 9 & \mid & 16\\\\ 
+ 5 & 7 & 9 & 10 & \mid & 14 
+ \end{bmatrix}$$
+
+- Subtraindo $L_3$ por $a_{31}L_1=6L_1$
+
+$$\begin{bmatrix}
+1 & \frac75 & \frac65 & 1 & \mid & \frac{11}5 \\\\ 
+0 & 8\frac35 & 6\frac45 & 6 & \mid & 12\frac45 \\\\ 
+5 & 6\frac35 & 8\frac45 & 8 & \mid & 13\frac45 \\\\ 
+5 & 7 & 9 & 10 & \mid & 14 
+\end{bmatrix}$$
+
+- Subtraindo $L_4$ por $a_{41}L_1=5L_1$
+
+$$\begin{bmatrix}
+1 & \frac75 & \frac65 & 1 & \mid & \frac{11}5 \\\\ 
+0 & 8\frac35 & 6\frac45 & 6 & \mid & 12\frac45 \\\\ 
+5 & 6\frac35 & 8\frac45 & 8 & \mid & 13\frac45 \\\\ 
+4 & 5\frac35 & 7\frac45 & 9 & \mid & 11\frac45 
+\end{bmatrix}$$
+
