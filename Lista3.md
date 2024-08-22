@@ -61,6 +61,70 @@ $$x=\begin{bmatrix}1 \\\\ 1 \\\\ 1\end{bmatrix}$$
 
 b.
 
+$$\begin{cases}2x_1+2x_2+4x_3=10 \\\\ x_1+x_2+3x_3=9 \\\\ x_1+3x_2+4x_3=17\end{cases}$$
+
+$$\begin{bmatrix}
+2 & 2 & 4 & \mid & 10 \\\\ 
+1 & 1 & 3 & \mid & 9 \\\\ 
+1 & 3 & 4 & \mid & 16\\\\
+\end{bmatrix}$$
+
+- Dividindo $L_1$ por $a_{11}=2$:
+
+$$\begin{bmatrix}
+1 & 1 & 2 & \mid & 5 \\\\ 
+1 & 1 & 3 & \mid & 9 \\\\ 
+1 & 3 & 4 & \mid & 16\\\\
+\end{bmatrix}$$
+
+- Subtraindo $L_2$ por $a_{21}L_1=L_1$:
+
+$$\begin{bmatrix}
+1 & 1 & 2 & \mid & 5 \\\\ 
+0 & 0 & 1 & \mid & 4 \\\\ 
+1 & 3 & 4 & \mid & 16\\\\
+\end{bmatrix}$$
+
+- Subtraindo $L_3$ por $a_{31}L_1=L_1$:
+
+$$\begin{bmatrix}
+1 & 1 & 2 & \mid & 5 \\\\ 
+0 & 0 & 1 & \mid & 4 \\\\ 
+0 & 2 & 2 & \mid & 9\\\\
+\end{bmatrix}$$
+
+- Trocando $L_2$ e $L_3$:
+
+$$\begin{bmatrix}
+1 & 1 & 2 & \mid & 5 \\\\ 
+0 & 2 & 2 & \mid & 9\\\\
+0 & 0 & 1 & \mid & 4 \\\\ 
+\end{bmatrix}$$
+
+- Dividindo a nova $L_2$ por $a_{22}=2$:
+
+$$\begin{bmatrix}
+1 & 1 & 2 & \mid & 5 \\\\ 
+0 & 1 & 1 & \mid & \frac92\\\\
+0 & 0 & 1 & \mid & 4 \\\\ 
+\end{bmatrix}$$
+
+- Subtraindo $L_1$ por $a_{12}L_2=L_2$
+
+$$\begin{bmatrix}
+1 & 0 & 1 & \mid & \frac92 \\\\ 
+0 & 1 & 1 & \mid & \frac92\\\\
+0 & 0 & 1 & \mid & 4 \\\\ 
+\end{bmatrix}$$
+
+- Subtraindo $L_1$ por $a_{13}L_3=L_3$
+
+$$\begin{bmatrix}
+1 & 0 & 0 & \mid & \frac12 \\\\ 
+0 & 1 & 1 & \mid & \frac92\\\\
+0 & 0 & 1 & \mid & 4 \\\\ 
+\end{bmatrix}$$
+
 c.
 
 d.
