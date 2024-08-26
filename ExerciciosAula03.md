@@ -36,7 +36,7 @@ $$x_1,x_2,x_3,x_4,x_5\geq0$$
 
 **2. Uma metalúrgica compra ferro velho de três fornecedores: A, B e C. A carga do fornecedor A contém 2 ton. de ferro, 2 ton. de alumínio e 1,3 ton. de cobre ao custo de $400. A carga do fornecedor B contém 1,3 ton. de ferro, 2,4 ton. de alumínio e 1,9 ton. de cobre ao custo de $580. A carga do fornecedor C contém 0,6 ton. de ferro, 3,5 ton. de alumínio e 0,9 ton. de cobre ao custo de $390. A metalúrgica precisa adquirir, para a próxima semana, pelo menos 25 ton. de cada metal citado (ferro, alumínio e cobre). Quantas cargas devem ser adquiridas de cada fornecedor para minimizar o custo de aquisição dos metais?**
 
-$$min Z = 400x_1+580x_2+390x_3$$
+$$min\ Z = 400x_1+580x_2+390x_3$$
 
 $$Sujeito\ a$$
 
