@@ -79,4 +79,17 @@ $$x_1+80=100$$
 
 $$x_1=100-80=20$$
 
-- Portanto, a solução ótima é $Z=600\cdot20+800\cdot80=12000+64000=76000$
+- Portanto, a solução ótima é $Z=600\cdot20+800\cdot80=12000+64000=76000$.
+
+**7. Encontre a solução ótima pelo método gráfico para o seguinte modelo de PL:**
+
+$$max Z = 10x_1 + 8x_2$$
+
+$$sujeito a (s.t.)$$
+
+$$3x_1 + 3x_2 ≤ 30$$
+
+$$6x_1 + 3x_2 ≤ 48$$
+
+$$x1, x2 ≥ 0$$
+
