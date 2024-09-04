@@ -54,10 +54,29 @@ $$3x_1+2x_2\leq240$$
 
 - Se $x_2=0$, $x_1=\dfrac{240}3=80$
 
-- Chutando um valor ($100000$) para a função objetivo, e descobrindo a reta:
+- Chutando um valor ($48000$, pra facilitar a conta) para a função objetivo, e descobrindo a reta:
 
-- Se $x_1=0$, $x_2=\dfrac{100000}{800}=125$
+- Se $x_1=0$, $x_2=\dfrac{48000}{800}=60$
 
-- Se $x_2=0$, $x_1=\dfrac{100000}{600}=166,667$
+- Se $x_2=0$, $x_1=\dfrac{48000}{600}=80$
 
-- Plotando o gráfico:
+- Plotando o gráfico (restrições em azul e função objetivo em vermelho):
+
+![image](https://github.com/user-attachments/assets/1ab47c00-9b6b-42c8-9b7f-7cb094492b65)
+
+- Pelo gráfico, percebe-se que o ponto da solução ótima é na intersecção entre as restrições $x_1+x_2\leq100$ e $x_2=80$. Portanto, pode-se fazer o sistema de equações com elas:
+
+$$\begin{cases}
+x_1+x_2=100 \\
+x_2=80
+\end{cases}$$
+
+- Se $x_2=80$, portanto:
+
+$$x_1+x_2=100$$
+
+$$x_1+80=100$$
+
+$$x_1=100-80=20$$
+
+- Portanto, a solução ótima é $Z=600\cdot20+800\cdot80=12000+64000=76000$
