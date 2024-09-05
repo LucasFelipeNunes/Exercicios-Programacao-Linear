@@ -224,5 +224,17 @@ $$x_1, x_2 ≥ 0$$
 
 **Para R1:**
 
-- Se $x_1=0$, $x_2=3$
-- Se $x_2=0$, $x_1=1$
+- Se $x_1=0$, $x_2=5$
+- Se $x_2=0$, $x_1=5$
+
+**Para R2:**
+
+- Se $x_1=0$, $x_2=10$
+- Se $x_2=0$, $x_1=\dfrac{10}5=2$
+
+- Atribuindo um valor aleatório ($6$) a Z e descubrindo os zeros da função objetivo:
+
+- Se $x_1=0$, $x_2=\dfrac63=2$
+- Se $x_2=0$, $x_1=\dfrac62=3$
+
+- Plotando o gráfico: **TERMINAR**
