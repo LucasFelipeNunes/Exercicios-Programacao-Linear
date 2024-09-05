@@ -111,7 +111,24 @@ $$x_1, x_2 ≥ 0$$
 - Se $x_1=0$, $x_2=\dfrac{15}3=5$
 - Se $x_2=0$, $x_1=\dfrac{15}5=3$
 
-- Plotando o gráfico: **TERMINAR**
+- Plotando o gráfico:
+
+![image](https://github.com/user-attachments/assets/44aca8c2-ae33-41ed-8870-81fee42c2c38)
+
+Pode-se perceber que o ponto da solução ótima está na intersecção entre as equações $3x_1 + 5x_2 ≤ 15$ e $x_1\geq0$. Resolvendo o sistema entre elas:
+
+$$\begin{cases}
+3x_1 + 5x_2 = 15 \\
+x_2 = 0
+\end{cases}$$
+
+$$3x_1 + 5\cdot0 = 15$$
+
+$$3x_1 = 15$$
+
+$$x_2 = \dfrac{15}3=5$$
+
+- Portanto, $Z=5\cdot5 + 3\cdot0=25$
 
 b. 
 
@@ -142,7 +159,11 @@ $$x_1, x_2 ≥ 0$$
 - Se $x_1=0$, $x_2=\dfrac{30}10=3$
 - Se $x_2=0$, $x_1=\dfrac{30}6=5$
 
-- Plotando o gráfico: **TERMINAR**
+- Plotando o gráfico:
+
+![image](https://github.com/user-attachments/assets/65631baa-7e5c-40c7-bc3a-ce8824ee8b44)
+
+Percebe-se que existem infinitas soluções ótimas, já que todos os pontos da reta da restrição $3x_1 + 5x_2 ≤ 15$ que estejam entre as restrições $x_1\geq0$ e $5x_1 + 2x_2 \leq 10$ são soluções ótimas válidas.
 
 c. 
 
