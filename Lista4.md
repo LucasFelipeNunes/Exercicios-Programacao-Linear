@@ -8,7 +8,7 @@
 
 - $x_2$: quantidade de antibiótico
 
-- Formulando a função objetivo: $Z=5x_1+8x_2$
+- Formulando a função objetivo: $max Z=5x_1+8x_2$
 
 - Identificando as restrições:
 
@@ -33,4 +33,38 @@ $$x_1,x_2\geq0$$
 - **Ele gosta das duas com a mesma intensidade.**
 
 **Formule o modelo de PL para ajudar o jovem a planejar sua vida social com o objetivo de obter o máximo de saídas.**
+
+- Descubrindo as variáveis de decisão:
+
+- $x_1$: Quantidade de saídas com Ana Paula
+
+- $x_2$: Quantidade de saídas com Sheila
+
+- Montando a função objetivo: $max\ Z=x_1+x_2$
+
+- Identificando as restrições:
+
+- $R_1$: $3x_1+3x_2\leq18$
+
+- $R_2$: $5000x_1+10000x_2\leq40000$
+
+- $R_3$: $240x_1+160x_2\leq960$
+
+- $R_4$: $x_1\geq0$
+
+- $R_5$: $x_2\geq0$
+
+- Portanto, o modelo de PL fica:
+
+$$max\ Z=x_1+x_2$$
+
+$$Sujeito à (s. t.):$$
+
+$$3x_1+3x_2\leq1$$
+
+$$5000x_1+10000x_2\leq40000$$
+
+$$240x_1+160x_2\leq960$$
+
+$$x_1,x_2\geq0$$
 
