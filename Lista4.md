@@ -68,3 +68,36 @@ $$240x_1+160x_2\leq960$$
 
 $$x_1,x_2\geq0$$
 
+**3. Encontre a solução ótima pelo método gráfico para o seguinte modelo de PL:**
+
+a. 
+
+$$max\ Z = 5x_1 + 3x_2$$
+
+$$sujeito a (s.t.)$$
+
+$$3x_1 + 5x_2 ≤ 15$$
+
+$$5x_1 + 2x_2 ≥ 10$$
+
+$$x_1, x_2 ≥ 0$$
+
+- Descubrindo os zeros das funções "não óbvias" das restrições:
+
+**Para R1:**
+
+- Se $x_1=0$, $x_2=\dfrac{15}5=3$
+- Se $x_2=0$, $x_1=\dfrac{15}3=5$
+
+**Para R2:**
+
+- Se $x_1=0$, $x_2=\dfrac{10}2=5$
+- Se $x_2=0$, $x_1=\dfrac{10}5=2$
+
+- Atribuindo um valor aleatório ($15$) a Z e descubrindo os zeros da função objetivo:
+
+- Se $x_1=0$, $x_2=\dfrac{15}3=5$
+- Se $x_2=0$, $x_1=\dfrac{15}5=3$
+
+- Plotando o gráfico: **TERMINAR**
+
