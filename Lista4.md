@@ -206,3 +206,23 @@ $$x_1, x_2 ≥ 0$$
 
 - Plotando o gráfico: **TERMINAR**
 
+e.
+
+$$min\ Z = 2x_1 + 3x_2$$
+
+$$sujeito\ a\ (s.t.)$$
+
+$$x_1 + x_2 ≥ 5$$
+
+$$5x_1 + x_2 ≥ 10$$
+
+$$x_1 ≤ 8$$
+
+$$x_1, x_2 ≥ 0$$
+
+- Descubrindo os zeros das funções "não óbvias" das restrições:
+
+**Para R1:**
+
+- Se $x_1=0$, $x_2=3$
+- Se $x_2=0$, $x_1=1$
