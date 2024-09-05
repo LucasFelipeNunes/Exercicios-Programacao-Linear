@@ -18,6 +18,18 @@ $$x_1+x_2\leq5$$
 
 $$x_1,x_2\geq0$$
 
+- Portanto, o modelo de PL fica:
+
+$$max\ Z=5x_1+8x_2$$
+
+$$sujeito\ a\ (s.t.):$$
+
+$$x_1+4x_2\leq8$$
+
+$$x_1+x_2\leq5$$
+
+$$x_1,x_2\geq0$$
+
 **2. Um jovem universitário está saindo com duas meninas Ana Paula e Sheila. Ele sabe, por experiência, que:**
 
 - **Ana Paula, elegante, gosta de frequentar lugares sofisticados, mais caros, de modo que uma saída de três horas, custa $240;**
@@ -58,7 +70,7 @@ $$x_1,x_2\geq0$$
 
 $$max\ Z=x_1+x_2$$
 
-$$Sujeito à (s. t.):$$
+$$sujeito\ a\ (s.t.):$$
 
 $$3x_1+3x_2\leq1$$
 
@@ -74,7 +86,7 @@ a.
 
 $$max\ Z = 5x_1 + 3x_2$$
 
-$$sujeito a (s.t.)$$
+$$sujeito\ a\ (s.t.)$$
 
 $$3x_1 + 5x_2 ≤ 15$$
 
@@ -105,7 +117,7 @@ b.
 
 $$max\ Z = 6x_1 + 10x_2$$
 
-$$sujeito a (s.t.)$$
+$$sujeito\ a\ (s.t.)$$
 
 $$3x_1 + 5x_2 ≤ 15$$
 
@@ -136,7 +148,7 @@ c.
 
 $$max Z = 2x_1 + 2x_2$$
 
-$$sujeito a (s.t.)$$
+$$sujeito\ a\ (s.t.)$$
 
 $$x_1 – x_2 ≥ 1$$
 
@@ -162,3 +174,35 @@ $$x_1, x_2 ≥ 0$$
 - Se $x_2=0$, $x_1=\dfrac22=1$
 
 - Plotando o gráfico: **TERMINAR**
+
+d.
+
+$$min\ Z = x_1 + 2x_2$$
+
+$$sujeito\ a\ (s.t.)$$
+
+$$x_1 + x_2 ≥ 3$$
+
+$$2x_1 + x_2 ≤ 2$$
+
+$$x_1, x_2 ≥ 0$$
+
+- Descubrindo os zeros das funções "não óbvias" das restrições:
+
+**Para R1:**
+
+- Se $x_1=0$, $x_2=3$
+- Se $x_2=0$, $x_1=1$
+
+**Para R2:**
+
+- Se $x_1=0$, $x_2=2$
+- Se $x_2=0$, $x_1=\dfrac22=1$
+
+- Atribuindo um valor aleatório ($2$) a Z e descubrindo os zeros da função objetivo:
+
+- Se $x_1=0$, $x_2=\dfrac22=1$
+- Se $x_2=0$, $x_1=2$
+
+- Plotando o gráfico: **TERMINAR**
+
