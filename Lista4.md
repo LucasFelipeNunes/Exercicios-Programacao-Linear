@@ -101,3 +101,64 @@ $$x_1, x_2 ≥ 0$$
 
 - Plotando o gráfico: **TERMINAR**
 
+b. 
+
+$$max\ Z = 6x_1 + 10x_2$$
+
+$$sujeito a (s.t.)$$
+
+$$3x_1 + 5x_2 ≤ 15$$
+
+$$5x_1 + 2x_2 \leq 10$$
+
+$$x_1, x_2 ≥ 0$$
+
+- Descubrindo os zeros das funções "não óbvias" das restrições:
+
+**Para R1:**
+
+- Se $x_1=0$, $x_2=\dfrac{15}5=3$
+- Se $x_2=0$, $x_1=\dfrac{15}3=5$
+
+**Para R2:**
+
+- Se $x_1=0$, $x_2=\dfrac{10}2=5$
+- Se $x_2=0$, $x_1=\dfrac{10}5=2$
+
+- Atribuindo um valor aleatório ($30$) a Z e descubrindo os zeros da função objetivo:
+
+- Se $x_1=0$, $x_2=\dfrac{30}10=3$
+- Se $x_2=0$, $x_1=\dfrac{30}6=5$
+
+- Plotando o gráfico: **TERMINAR**
+
+c. 
+
+$$max Z = 2x_1 + 2x_2$$
+
+$$sujeito a (s.t.)$$
+
+$$x_1 – x_2 ≥ 1$$
+
+$$-\dfrac12x_1 + x_2 ≤ 2$$
+
+$$x_1, x_2 ≥ 0$$
+
+- Descubrindo os zeros das funções "não óbvias" das restrições:
+
+**Para R1:**
+
+- Se $x_1=0$, $x_2=\dfrac1{-1}=-1$
+- Se $x_2=0$, $x_1=1$
+
+**Para R2:**
+
+- Se $x_1=0$, $x_2=2$
+- Se $x_2=0$, $x_1=2\cdot2=4$
+
+- Atribuindo um valor aleatório ($2$) a Z e descubrindo os zeros da função objetivo:
+
+- Se $x_1=0$, $x_2=\dfrac22=1$
+- Se $x_2=0$, $x_1=\dfrac22=1$
+
+- Plotando o gráfico: **TERMINAR**
