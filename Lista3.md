@@ -24,9 +24,9 @@ $x_1,x_2,x_3\geq0$: restrições de não negatividade
 
 - Modelo de Programação Linear:
 
-$$Z=x_1+x_2+x_3$$
+$$max \ Z=x_1+x_2+x_3$$
 
-Sujeito a:
+$$sujeito\ a\ (s.t.)$$
 
 $$100x_1+150x_2+200x_3\leq20.000$$
 
@@ -36,7 +36,43 @@ $$x_1,x_2,x_3\geq0$$
 
 **2. Uma escola pública procura uma dieta especial que forneça as quantidades mínimas diárias das vitaminas A, B e C (45 ml de vitamina A, 64 ml de vitamina B e 45 ml de vitamina C) a seus alunos ao menor custo possível. A escola conclui que poderia alcançar seu objetivo incluindo no lanche das crianças laranjas e maçãs. Em uma pesquisa nos atacadistas, a escola consegue comprar 1 kg de laranja por $0,45. Esse quilo de laranja fornece 3 ml de vitamina A, 8 ml de vitamina B e 15 ml de vitamina C, segundo a nutricionista da escola. Cada quilo de maçã custa $0,55 e fornece 15 ml de vitamina A, 8 ml de vitamina B e 9 ml de vitamina C. A meta da escola é determinar quantos quilos de cada fruta devem ser utilizados diariamente de modo a minimizar o custo total.**
 
+- Variáveis de decisão:
 
+$$x_1$$: Massa, em quilos, de laranja comprada
+
+$$x_2$$: Massa, em quilos, de maçã comprada
+
+**Função Objetivo:** $min\ Z=0,45x_1+0,55x_2$
+
+**Restrições:**
+
+- $3x_1+15x_2\geq45$
+
+- $8x_1+8x_2\geq64$
+
+- $15x_1+9x_2\geq45$
+
+- $x_1,x_2\geq0$
+
+**Modelo de Programação Linear:**
+
+$$min \ Z=0,45x_1+0,55x_2$$
+
+$$sujeito\ a\ (s.t.)$$
+
+$$3x_1+15x_2\geq45$$
+
+$$8x_1+8x_2\geq64$$
+
+$$15x_1+9x_2\geq45$$
+
+$$x_1,x_2\geq0$$
+
+**3. Uma empresa fabrica dois produtos: P1 e P2. Para a fabricação, esses produtos consomem tempo nos departamentos A e B. P1 gasta 1 hora no departamento A e 3 horas no departamento B. P2 gasta de 1 hora no departamento A e 2 horas no departamento B. A capacidade do departamento A é de 100 horas e a capacidade do departamento B é de 240 horas. A demanda por P1 é de 60 unidades e a demanda por P2 é de 80 unidades. Além disso, o preço de P1 é de $600 por unidade e o preço de P2 é de $800 por unidade. O objetivo é maximizar a receita.**
+
+**4. Uma escola pretende comprar doces (balas e pirulitos) para distribuir aos alunos. Cada bala custa $0,05 e cada pirulito custa $0,15. A verba disponível para a compra de doces é $1500. Além disso, o fornecedor disse que pode fornecer no máximo 24000 balas. Quantas balas e quantos pirulitos devem ser adquiridos? O objetivo é maximizar a quantidade de doces.**
+
+**5. Uma locadora aluga dois tipos de carros: econômico e luxo. O lucro mensal de um carro econômico é $5000 e de um carro de luxo é $8000. Tem apenas 10 vagas na garagem da locadora e é necessário ter, ao menos, três carros de cada tipo na garagem. O objetivo é maximizar o lucro mensal.**
 
 **6. Encontre a solução ótima pelo método gráfico para o modelo de PL da questão 3, mas considerando que $x_1\leq60$ e $x_2\leq80$ em vez de $x_1\geq60$ e $x_2\geq80$.**
 
