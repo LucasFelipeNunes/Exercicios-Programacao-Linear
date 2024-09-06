@@ -34,7 +34,7 @@ $$100x_1+200x_2+300x_3\leq30.000$$
 
 $$x_1,x_2,x_3\geq0$$
 
-**6. Encontre a solução ótima pelo método gráfico para o modelo de PL da questão 3.**
+**6. Encontre a solução ótima pelo método gráfico para o modelo de PL da questão 3, mas considerando que $x_1\leq60$ e $x_2\leq80$ em vez de $x_1\geq60$ e $x_2\geq80$.**
 
 - Identificando as restrições, e os zeros das funções "não óbvias":
 
@@ -83,9 +83,9 @@ $$x_1=100-80=20$$
 
 **7. Encontre a solução ótima pelo método gráfico para o seguinte modelo de PL:**
 
-$$max Z = 10x_1 + 8x_2$$
+$$max\ Z = 10x_1 + 8x_2$$
 
-$$sujeito a (s.t.)$$
+$$sujeito\ a\ (s.t.)$$
 
 $$3x_1 + 3x_2 ≤ 30$$
 
@@ -93,3 +93,16 @@ $$6x_1 + 3x_2 ≤ 48$$
 
 $$x1, x2 ≥ 0$$
 
+- Identificando os zeros das funções "não óbvias":
+
+**Para $3x_1 + 3x_2 ≤ 30$:**
+
+- Se $x_1=0$, $x_2=\dfrac{30}3=10$
+- Se $x_2=0$, $x_1=\dfrac{30}3=10$
+
+**Para $6x_1 + 3x_2 ≤ 48$:**
+
+- Se $x_1=0$, $x_2=\dfrac{48}3=16$
+- Se $x_2=0$, $x_1=\dfrac{48}6=8$
+
+- Chutando um valor ($80$, pra facilitar a conta) para a função objetivo, e descobrindo a reta:
