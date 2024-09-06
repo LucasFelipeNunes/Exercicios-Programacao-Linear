@@ -34,6 +34,10 @@ $$100x_1+200x_2+300x_3\leq30.000$$
 
 $$x_1,x_2,x_3\geq0$$
 
+**2. Uma escola pública procura uma dieta especial que forneça as quantidades mínimas diárias das vitaminas A, B e C (45 ml de vitamina A, 64 ml de vitamina B e 45 ml de vitamina C) a seus alunos ao menor custo possível. A escola conclui que poderia alcançar seu objetivo incluindo no lanche das crianças laranjas e maçãs. Em uma pesquisa nos atacadistas, a escola consegue comprar 1 kg de laranja por $0,45. Esse quilo de laranja fornece 3 ml de vitamina A, 8 ml de vitamina B e 15 ml de vitamina C, segundo a nutricionista da escola. Cada quilo de maçã custa $0,55 e fornece 15 ml de vitamina A, 8 ml de vitamina B e 9 ml de vitamina C. A meta da escola é determinar quantos quilos de cada fruta devem ser utilizados diariamente de modo a minimizar o custo total.**
+
+
+
 **6. Encontre a solução ótima pelo método gráfico para o modelo de PL da questão 3, mas considerando que $x_1\leq60$ e $x_2\leq80$ em vez de $x_1\geq60$ e $x_2\geq80$.**
 
 - Identificando as restrições, e os zeros das funções "não óbvias":
