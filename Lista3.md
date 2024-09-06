@@ -106,3 +106,35 @@ $$x1, x2 ≥ 0$$
 - Se $x_2=0$, $x_1=\dfrac{48}6=8$
 
 - Chutando um valor ($80$, pra facilitar a conta) para a função objetivo, e descobrindo a reta:
+
+- Se $x_1=0$, $x_2=\dfrac{80}8=10$
+- Se $x_2=0$, $x_1=\dfrac{80}{10}=8$
+
+- Plotando o gráfico (restrições em azul e função objetivo em vermelho):
+
+![image](https://github.com/user-attachments/assets/d779fdb2-4509-48f1-b1a6-aabeb470fcd9)
+
+Pelo gráfico, infere-se que a solução ótima será a da intersecção entre as restrições $6x_1 + 3x_2 \leq 48$ e $3x_1+3x_2\leq30$. Fazendo um sistema com essas equações:
+
+$$\begin{cases}
+6x_1 + 3x_2 = 48\\
+3x_1+3x_2=30
+\end{cases}$$
+
+$$3(x_1+x_2)=30$$
+
+$$x_1+x_2=\dfrac{30}3$$
+
+$$x_2=10-x_1$$
+
+$$6x_1 + 3(10-x_1) = 48$$
+
+$$6x_1 + 30-3x_1 = 48$$
+
+$$3x_1 = 48-30$$
+
+$$x_1 =\dfrac{18}3=6$$
+
+$$x_2=10-x_1=10-6=4$$
+
+- Portanto, $Z=10\cdot6+8\cdot4=60+32=92$
