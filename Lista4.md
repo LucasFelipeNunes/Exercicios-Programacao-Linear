@@ -194,7 +194,11 @@ $$x_1, x_2 ≥ 0$$
 - Se $x_1=0$, $x_2=\dfrac22=1$
 - Se $x_2=0$, $x_1=\dfrac22=1$
 
-- Plotando o gráfico: **TERMINAR**
+- Plotando o gráfico:
+
+![image](https://github.com/user-attachments/assets/3b063598-5703-48a8-8e66-1af77a8f17a6)
+
+Pela imagem, pode-se notar que a solução é ilimitada, pois a região viável tende ao infinito e o ponto da solução ótima também vai tender.
 
 d.
 
@@ -225,7 +229,11 @@ $$x_1, x_2 ≥ 0$$
 - Se $x_1=0$, $x_2=\dfrac22=1$
 - Se $x_2=0$, $x_1=2$
 
-- Plotando o gráfico: **TERMINAR**
+- Plotando o gráfico:
+
+![image](https://github.com/user-attachments/assets/d66171e8-6307-4cdb-b9b9-4b529ca7802d)
+
+Pelo gráfico, pode-se notar que não existe região viável, já que não existe um ponto em que $x_1 + x_2 ≥ 3$ e $2x_1 + x_2 ≤ 2$ que respeite as restrições de não negatividade.
 
 e.
 
@@ -258,4 +266,19 @@ $$x_1, x_2 ≥ 0$$
 - Se $x_1=0$, $x_2=\dfrac63=2$
 - Se $x_2=0$, $x_1=\dfrac62=3$
 
-- Plotando o gráfico: **TERMINAR**
+- Plotando o gráfico:
+
+![image](https://github.com/user-attachments/assets/8b86294b-073c-4f8d-8d1b-f865c634398e)
+
+Portanto, o ponto da solução ótima é a intersecção entre as retas de equações $x_1+x_2=5$ e $x_2=0$. Fazendo um sistema de equações com elas:
+
+$$\begin{cases}
+x_1+x_2=5\\
+x_2=0
+\end{cases}$$
+
+$$x_1+0=5$$
+
+$$x_1=5$$
+
+Portanto, $Z=2x_1+3x_2=2\cdot5+3\cdot0=10+0=10$
