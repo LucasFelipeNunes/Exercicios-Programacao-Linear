@@ -72,10 +72,6 @@ $$\begin{bmatrix}
 
 $$L_3-(-2)L_2$$
 
-$$0 \ -2 & -3 \ \mid \ 0 \\\\
-- 0 \ -2 \ \dfrac32 \ \mid \ 0 \\\\
-0 \ 0 \ -\dfrac92 \ \mid \ 0$$
-
 $$\begin{bmatrix}
 1 & 6 & 6 & \mid & 1 \\\\
 0 & 1 & -\dfrac34 & \mid & 0 \\\\
@@ -83,8 +79,8 @@ $$\begin{bmatrix}
 \end{bmatrix}$$
 
 $$\begin{cases}
-x_1 + 6x_2 + 6x_3 = 1
-x_2 - \dfrac34 x_3 = 0
+x_1 + 6x_2 + 6x_3 = 1 \\\\
+x_2 - \dfrac34 x_3 = 0 \\\\
 -\dfrac92 x_3 = 0
 \end{cases}$$
 
@@ -97,6 +93,11 @@ $$x_2=0$$
 $$x_1 + 6\cdot0 + 6\cdot0 = 1$$
 
 $$x_1 = 1$$
+
+$$x=\begin{bmatrix}1 \\\\
+0 \\\\
+0
+\end{bmatrix}$$
 
 **4. Uma empresa fabrica dois tipos de produto: P1 e P2. Para a fabricação, esses produtos consomem tempo nos departamentos A e B. P1 gasta 1 hora no departamento A e 3 horas no departamento B. P2 gasta de 1 hora no departamento A e 2 horas no departamento B. A capacidade do departamento A é de 100 horas e a capacidade do departamento B é de 240 horas. A demanda por P1 é de 60 unidades e a demanda por P2 é de 80 unidades. Além disso, o preço de P1 é de $600 por unidade e o preço de P2 é de $800 por unidade. Elabore o modelo de PL para auxiliar a empresa a maximizar a receita. Resolva pelo método gráfico.**
 
