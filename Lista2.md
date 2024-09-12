@@ -219,6 +219,7 @@ $$\begin{bmatrix}
 0 & 1 & 0 & \mid & \frac12\\\\
 0 & 0 & 1 & \mid & 1 \\\\ 
 \end{bmatrix}$$
+
 d.
 
 $$\begin{cases}5x_1+7x_2+6x_3+5x_4=11 \\\\ 7x_1+10x_2+8x_3+7x_4=15 \\\\ 6x_1+8x_2+10x_3+9x_4=17 \\\\ 5x_1+7x_2+9x_3+10x_4=14\end{cases}$$
