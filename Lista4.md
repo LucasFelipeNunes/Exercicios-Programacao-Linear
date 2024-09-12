@@ -1,4 +1,4 @@
-# Lista de Exercícios 4
+# Lista de Exercícios 2
 
 **1. Uma indústria farmacêutica produz dois medicamentos: analgésico e antibiótico. Os medicamentos dependem de duas matérias-primas A e B, disponíveis em estoque nas seguintes quantidades 8 e 5 ton., respectivamente. Para produzir 1 ton. de analgésico são usadas 1 ton. de A e 1 ton. de B. Na produção de 1 ton. de antibiótico são usadas 4 ton. de A e 1 ton. de B. Cada tonelada de antibiótico é vendida a $8 e de analgésico a $5. Formule o modelo de PL para a indústria saber quantidade (ton.) de medicamento que deve ser produzida para maximizar a receita.**
 
@@ -113,7 +113,7 @@ $$x_1, x_2 ≥ 0$$
 
 - Plotando o gráfico:
 
-![image](https://github.com/user-attachments/assets/44aca8c2-ae33-41ed-8870-81fee42c2c38)
+![[Lista4Ex3ItemA.png]]
 
 Pode-se perceber que o ponto da solução ótima está na intersecção entre as equações $3x_1 + 5x_2 ≤ 15$ e $x_1\geq0$. Resolvendo o sistema entre elas:
 
@@ -161,7 +161,7 @@ $$x_1, x_2 ≥ 0$$
 
 - Plotando o gráfico:
 
-![image](https://github.com/user-attachments/assets/65631baa-7e5c-40c7-bc3a-ce8824ee8b44)
+![[Lista4Ex3ItemB.png]]
 
 Percebe-se que existem infinitas soluções ótimas, já que todos os pontos da reta da restrição $3x_1 + 5x_2 ≤ 15$ que estejam entre as restrições $x_1\geq0$ e $5x_1 + 2x_2 \leq 10$ são soluções ótimas válidas.
 
@@ -196,7 +196,7 @@ $$x_1, x_2 ≥ 0$$
 
 - Plotando o gráfico:
 
-![image](https://github.com/user-attachments/assets/3b063598-5703-48a8-8e66-1af77a8f17a6)
+![[Lista4Ex3ItemC.png]]
 
 Pela imagem, pode-se notar que a solução é ilimitada, pois a região viável tende ao infinito e o ponto da solução ótima também vai tender.
 
@@ -231,7 +231,7 @@ $$x_1, x_2 ≥ 0$$
 
 - Plotando o gráfico:
 
-![image](https://github.com/user-attachments/assets/d66171e8-6307-4cdb-b9b9-4b529ca7802d)
+![[Lista4Ex3ItemD.png]]
 
 Pelo gráfico, pode-se notar que não existe região viável, já que não existe um ponto em que $x_1 + x_2 ≥ 3$ e $2x_1 + x_2 ≤ 2$ que respeite as restrições de não negatividade.
 
@@ -268,7 +268,7 @@ $$x_1, x_2 ≥ 0$$
 
 - Plotando o gráfico:
 
-![image](https://github.com/user-attachments/assets/8b86294b-073c-4f8d-8d1b-f865c634398e)
+![[Lista4Ex3ItemE.png]]
 
 Portanto, o ponto da solução ótima é a intersecção entre as retas de equações $x_1+x_2=5$ e $x_2=0$. Fazendo um sistema de equações com elas:
 

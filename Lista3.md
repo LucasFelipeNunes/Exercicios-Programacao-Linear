@@ -4,11 +4,11 @@
 
 **Variáveis de decisão:**
 
-$$x_1$$: Produto A
+$x_1$: Produto A
 
-$$x_2$$: Produto B
+$x_2$: Produto B
 
-$$x_3$$: Produto C
+$x_3$: Produto C
 
 **Função Objetivo:**
 
@@ -38,9 +38,9 @@ $$x_1,x_2,x_3\geq0$$
 
 **Variáveis de decisão:**
 
-$$x_1$$: Massa, em quilos, de laranja comprada
+$x_1$: Massa, em quilos, de laranja comprada
 
-$$x_2$$: Massa, em quilos, de maçã comprada
+$x_2$: Massa, em quilos, de maçã comprada
 
 **Função Objetivo:** $min\ Z=0,45x_1+0,55x_2$
 
@@ -72,9 +72,9 @@ $$x_1,x_2\geq0$$
 
 **Variáveis de decisão:**
 
-$$x_1$$: Unidades de P1 produzidas
+$x_1$: Unidades de P1 produzidas
 
-$$x_2$$: Unidades de P2 produzidas
+$x_2$: Unidades de P2 produzidas
 
 **Função Objetivo:** $max\ Z=600x_1+800x_2$
 
@@ -110,9 +110,9 @@ $$x_1,x_2\geq0$$
 
 **Variáveis de decisão:**
 
-$$x_1$$: Quantidade de balas
+$x_1$: Quantidade de balas
 
-$$x_2$$: Quantidade de pirulitos
+$x_2$: Quantidade de pirulitos
 
 **Função Objetivo:** $max\ Z=x_1+x_2$
 
@@ -140,9 +140,9 @@ $$x_1,x_2\geq0$$
 
 **Variáveis de decisão:**
 
-$$x_1$$: Unidades de carro econômico
+$x_1$: Unidades de carro econômico
 
-$$x_2$$: Unidades de carro de luxo
+$x_2$: Unidades de carro de luxo
 
 **Função Objetivo:** $max\ Z=5000x_1+8000x_2$
 
@@ -198,7 +198,7 @@ $$3x_1+2x_2\leq240$$
 
 - Plotando o gráfico (restrições em azul e função objetivo em vermelho):
 
-![image](https://github.com/user-attachments/assets/1ab47c00-9b6b-42c8-9b7f-7cb094492b65)
+![[Lista3Ex6.png]]
 
 - Pelo gráfico, percebe-se que o ponto da solução ótima é na intersecção entre as restrições $x_1+x_2\leq100$ e $x_2=80$. Portanto, pode-se fazer o sistema de equações com elas:
 
@@ -248,7 +248,7 @@ $$x1, x2 ≥ 0$$
 
 - Plotando o gráfico (restrições em azul e função objetivo em vermelho):
 
-![image](https://github.com/user-attachments/assets/d779fdb2-4509-48f1-b1a6-aabeb470fcd9)
+![[Lista3Ex7.png]]
 
 Pelo gráfico, infere-se que a solução ótima será a da intersecção entre as restrições $6x_1 + 3x_2 \leq 48$ e $3x_1+3x_2\leq30$. Fazendo um sistema com essas equações:
 
