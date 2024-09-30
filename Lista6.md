@@ -126,4 +126,61 @@ $$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
 | $x_2$ | 0 | 1 | 0 | 0 | 0 | 1 | 40 |
 | $Z$ | 0 | 0 | 300 | 0 | 0 | 0 | 19000 |
 
-Portanto, a solução ótima é $Z=19000$, para $x_1=10$ e $x_2=40$.
+Portanto, a solução ótima é $Z=19000$, para $x=(10;40;0;10;20;0)$.
+
+**2.**
+
+$$max\ Z=x_1+2x_2+3x_3$$
+
+$$sujeito\ a\ (s.t.)$$
+
+$$x_1+x_2+x_3\leq60$$
+
+$$x_1+2x_2+2x_3\leq110$$
+
+$$x_1+x_2+2x_3\leq90$$
+
+$$x_1,x_2,x_3\geq0$$
+
+- Transformando na forma padrão:
+
+$$max\ Z=x_1+2x_2+3x_3$$
+
+$$sujeito\ a\ (s.t.)$$
+
+$$x_1+x_2+x_3+x_4=60$$
+
+$$x_1+2x_2+2x_3+x_5=110$$
+
+$$x_1+x_2+2x_3+x_6=90$$
+
+$$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
+
+- Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_2$ na devida posição:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ | $\theta$ |
+|---|---|---|---|---|---|---|---|---|
+| $x_4$ | 1 | 1 | 1 | 1 | 0 | 0 | 60 | $\dfrac{60}1=60$ |
+| $x_5$ | 1 | 2 | 2 | 0 | 1 | 0 | 110 | $\dfrac{110}2=55$ |
+| $x_3$ | 1 | 1 | 2 | 0 | 0 | 1 | 90 | $\dfrac{90}2=45$ |
+| $Z$ | -1 | -2 | -3 | 0 | 0 | 0 | 0 | $-$ |
+
+- Transformando o pivô em 1 e os valores abaixo dele em 0:
+
+- Dividindo $L_{x_3}$ por $2$:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
+|---|---|---|---|---|---|---|---|
+| $x_4$ | 1 | 1 | 1 | 1 | 0 | 0 | 60 |
+| $x_5$ | 1 | 2 | 2 | 0 | 1 | 0 | 110 |
+| $x_3$ | \dfrac12 | \dfrac12 | 1 | 0 | 0 | \dfrac12 | 45 |
+| $Z$ | -1 | -2 | -3 | 0 | 0 | 0 | 0 |
+
+- Subtraindo $L_{x_4}$ por $L_{x_3}$:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
+|---|---|---|---|---|---|---|---|
+| $x_4$ | \dfrac12 | \dfrac12 | 0 | 1 | 0 | -\dfrac12 | 15 |
+| $x_5$ | 1 | 2 | 2 | 0 | 1 | 0 | 110 |
+| $x_3$ | \dfrac12 | \dfrac12 | 1 | 0 | 0 | \dfrac12 | 45 |
+| $Z$ | -1 | -2 | -3 | 0 | 0 | 0 | 0 |
