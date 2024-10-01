@@ -156,7 +156,14 @@ $$x_1+x_2+2x_3+x_6=90$$
 
 $$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
 
-- Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_2$ na devida posição:
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
+|---|---|---|---|---|---|---|---|
+| $x_4$ | 1 | 1 | 1 | 1 | 0 | 0 | 60 |
+| $x_5$ | 1 | 2 | 2 | 0 | 1 | 0 | 110 |
+| $x_6$ | 1 | 1 | 2 | 0 | 0 | 1 | 90 |
+| $Z$ | -1 | -2 | -3 | 0 | 0 | 0 | 0 |
+
+- A primeira solução viável é $Z*=0$, com $x=(0;0;0;60;110;90)$. Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_3$ na devida posição:
 
 | Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ | $\theta$ |
 |---|---|---|---|---|---|---|---|---|
@@ -173,14 +180,34 @@ $$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
 |---|---|---|---|---|---|---|---|
 | $x_4$ | 1 | 1 | 1 | 1 | 0 | 0 | 60 |
 | $x_5$ | 1 | 2 | 2 | 0 | 1 | 0 | 110 |
-| $x_3$ | \dfrac12 | \dfrac12 | 1 | 0 | 0 | \dfrac12 | 45 |
+| $x_3$ | $\dfrac12$ | $\dfrac12$ | 1 | 0 | 0 | $\dfrac12$ | 45 |
 | $Z$ | -1 | -2 | -3 | 0 | 0 | 0 | 0 |
 
 - Subtraindo $L_{x_4}$ por $L_{x_3}$:
 
 | Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
 |---|---|---|---|---|---|---|---|
-| $x_4$ | \dfrac12 | \dfrac12 | 0 | 1 | 0 | -\dfrac12 | 15 |
+| $x_4$ | $\dfrac12$ | $\dfrac12$ | 0 | 1 | 0 | $-\dfrac12$ | 15 |
 | $x_5$ | 1 | 2 | 2 | 0 | 1 | 0 | 110 |
-| $x_3$ | \dfrac12 | \dfrac12 | 1 | 0 | 0 | \dfrac12 | 45 |
+| $x_3$ | $\dfrac12$ | $\dfrac12$ | 1 | 0 | 0 | $\dfrac12$ | 45 |
 | $Z$ | -1 | -2 | -3 | 0 | 0 | 0 | 0 |
+
+- Subtraindo $L_{x_5}$ por $2L_{x_3}$:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
+|---|---|---|---|---|---|---|---|
+| $x_4$ | $\dfrac12$ | $\dfrac12$ | 0 | 1 | 0 | $-\dfrac12$ | 15 |
+| $x_5$ | 0 | 1 | 0 | 0 | 1 | -1 | 20 |
+| $x_3$ | $\dfrac12$ | $\dfrac12$ | 1 | 0 | 0 | $\dfrac12$ | 45 |
+| $Z$ | -1 | -2 | -3 | 0 | 0 | 0 | 0 |
+
+- Subtraindo $L_{Z}$ por $-3L_{x_3}$:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
+|---|---|---|---|---|---|---|---|
+| $x_4$ | $\dfrac12$ | $\dfrac12$ | 0 | 1 | 0 | $-\dfrac12$ | 15 |
+| $x_5$ | 0 | 1 | 0 | 0 | 1 | -1 | 20 |
+| $x_3$ | $\dfrac12$ | $\dfrac12$ | 1 | 0 | 0 | $\dfrac12$ | 45 |
+| $Z$ | $\dfrac12$ | $-\dfrac12$ | 0 | 0 | 0 | $\dfrac32$ | 135 |
+
+- A segunda solução viável é $Z*=135$, com $x=(0;0;45;15;25;0)$. Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_2$ na devida posição:
