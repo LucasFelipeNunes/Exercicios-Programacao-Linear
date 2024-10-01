@@ -42,7 +42,7 @@ $$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
 | $x_6$ | 0 | 1 | 0 | 0 | 0 | 1 | 40 |
 | $Z$ | -300 | -400 | 0 | 0 | 0 | 0 | 0 |
 
-- Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_2$ na devida posição:
+- A solução viável neste caso é $Z^*=0$, com $x=(0;0;50;120;30;40)$. Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_2$ na devida posição:
 
 | Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ | $\theta$ |
 |---|---|---|---|---|---|---|---|---|
@@ -84,7 +84,7 @@ $$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
 | $x_2$ | 0 | 1 | 0 | 0 | 0 | 1 | 40 |
 | $Z$ | -300 | 0 | 0 | 0 | 0 | 0 | 16000 |
 
-- Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_1$ na devida posição:
+- A solução viável neste caso é $Z^*=16000$, com $x=(0;40;10;40;30;0)$. Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_1$ na devida posição:
 
 | Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ | $\theta$ |
 |---|---|---|---|---|---|---|---|---|
@@ -163,7 +163,7 @@ $$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
 | $x_6$ | 1 | 1 | 2 | 0 | 0 | 1 | 90 |
 | $Z$ | -1 | -2 | -3 | 0 | 0 | 0 | 0 |
 
-- A primeira solução viável é $Z*=0$, com $x=(0;0;0;60;110;90)$. Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_3$ na devida posição:
+- A primeira solução viável é $Z^*=0$, com $x=(0;0;0;60;110;90)$. Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_3$ na devida posição:
 
 | Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ | $\theta$ |
 |---|---|---|---|---|---|---|---|---|
@@ -210,4 +210,42 @@ $$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
 | $x_3$ | $\dfrac12$ | $\dfrac12$ | 1 | 0 | 0 | $\dfrac12$ | 45 |
 | $Z$ | $\dfrac12$ | $-\dfrac12$ | 0 | 0 | 0 | $\dfrac32$ | 135 |
 
-- A segunda solução viável é $Z*=135$, com $x=(0;0;45;15;25;0)$. Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_2$ na devida posição:
+- A segunda solução viável é $Z^*=135$, com $x=(0;0;45;15;25;0)$. Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_2$ na devida posição:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ | $\theta$ |
+|---|---|---|---|---|---|---|---|---|
+| $x_4$ | $\dfrac12$ | $\dfrac12$ | 0 | 1 | 0 | $-\dfrac12$ | 15 | $\dfrac{15}{\dfrac12}=15\cdot2=30$ |
+| $x_2$ | 0 | 1 | 0 | 0 | 1 | -1 | 20 | $\dfrac{20}1=20$ |
+| $x_3$ | $\dfrac12$ | $\dfrac12$ | 1 | 0 | 0 | $\dfrac12$ | 45 | $\dfrac{45}{\dfrac12}=45\cdot2=90$ |
+| $Z$ | $\dfrac12$ | $-\dfrac12$ | 0 | 0 | 0 | $\dfrac32$ | 135 | $-$ |
+
+- Transformando o pivô em 1 e os valores abaixo dele em 0:
+
+- Subtraindo $L_{x_4}$ por $\dfrac{L_{x_2}}2$:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
+|---|---|---|---|---|---|---|---|
+| $x_4$ | $\dfrac12$ | 0 | 0 | 1 | $-\dfrac12$ | 0 | 5 |
+| $x_2$ | 0 | 1 | 0 | 0 | 1 | -1 | 20 |
+| $x_3$ | $\dfrac12$ | $\dfrac12$ | 1 | 0 | 0 | $\dfrac12$ | 45 |
+| $Z$ | $\dfrac12$ | $-\dfrac12$ | 0 | 0 | 0 | $\dfrac32$ | 135 |
+
+- Subtraindo $L_{x_3}$ por $\dfrac{L_{x_2}}2$:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
+|---|---|---|---|---|---|---|---|
+| $x_4$ | $\dfrac12$ | 0 | 0 | 1 | $-\dfrac12$ | 0 | 5 |
+| $x_2$ | 0 | 1 | 0 | 0 | 1 | -1 | 20 |
+| $x_3$ | $\dfrac12$ | 0 | 1 | 0 | $-\dfrac12$ | 1 | 35 |
+| $Z$ | $\dfrac12$ | $-\dfrac12$ | 0 | 0 | 0 | $\dfrac32$ | 135 |
+
+- Subtraindo $L_{Z}$ por $-\dfrac{L_{x_2}}2$:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
+|---|---|---|---|---|---|---|---|
+| $x_4$ | $\dfrac12$ | 0 | 0 | 1 | $-\dfrac12$ | 0 | 5 |
+| $x_2$ | 0 | 1 | 0 | 0 | 1 | -1 | 20 |
+| $x_3$ | $\dfrac12$ | 0 | 1 | 0 | $-\dfrac12$ | 1 | 35 |
+| $Z$ | $\dfrac12$ | 0 | 0 | 0 | $\dfrac12$ | 1 | 145 |
+
+- A terceira solução viável é $Z^*=145$, com $x=(0;20;35;5;0;0)$. Não há mais coeficientes negativos em $L_{Z}$; portanto, esta solução é ótima.
