@@ -156,6 +156,8 @@ $$x_1+x_2+2x_3+x_6=90$$
 
 $$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
 
+- Montando o tableau:
+
 | Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $b$ |
 |---|---|---|---|---|---|---|---|
 | $x_4$ | 1 | 1 | 1 | 1 | 0 | 0 | 60 |
@@ -249,3 +251,34 @@ $$x_1,x_2,x_3,x_4,x_5,x_6\geq0$$
 | $Z$ | $\dfrac12$ | 0 | 0 | 0 | $\dfrac12$ | 1 | 145 |
 
 - A terceira solução viável é $Z^*=145$, com $x=(0;20;35;5;0;0)$. Não há mais coeficientes negativos em $L_{Z}$; portanto, esta solução é ótima.
+
+
+$$max\ -Z=-3x_1+5x_2$$
+
+$$(s.t.)$$
+
+$$3x_1+2x_2+x_3=18$$
+
+$$x_1+x_4=4$$
+
+$$x_2+x_5=6$$
+
+$$x_i\geq0,para\ i=1,...,5$$
+
+- Montando o tableau:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $b$ |
+|---|---|---|---|---|---|---|
+| $x_3$ | 3 | 2 | 1 | 0 | 0 | 18 |
+| $x_4$ | 1 | 0 | 0 | 1 | 0 | 4 |
+| $x_5$ | 0 | 1 | 0 | 0 | 1 | 6 |
+| $Z$ | 3 | -5 | 0 | 0 | 0 | 0 |
+
+- A primeira solução viável é $Z^*=0$, com $x=(0;0;18;4;6;0)$. Ainda há coeficientes negativos. Encontrando o valor mais negativo, calculando o $\theta$ e colocando $x_2$ na devida posição:
+
+| Base | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $b$ | $\theta$ |
+|---|---|---|---|---|---|---|---|
+| $x_3$ | 3 | 2 | 1 | 0 | 0 | 18 | $\dfrac{}$
+| $x_4$ | 1 | 0 | 0 | 1 | 0 | 4 |
+| $x_5$ | 0 | 1 | 0 | 0 | 1 | 6 |
+| $Z$ | 3 | -5 | 0 | 0 | 0 | 0 |
