@@ -45,5 +45,31 @@ $$x_{14}+x_{24}+x_{34}\geq10$$
 
 $$x_{ij}\geq0,\ para\ i = 1, 2, 3\ e\ j = 1, 2, 3, 4$$
 
-**2. Encontre a solução inicial para o problema de transportes pela regra do canto**
+**2. Encontre a solução inicial para o problema de transportes pela regra do canto noroeste. Há algum problema com a solução encontrada?**
+
+| | $D_1$ | $D_2$ | $D_3$ | $D_4$ | Disponibilidade |
+|---|---|---|---|---|---|
+| $O_1$ | 5 | 5 |  |  | 10 |
+| $O_2$ |  |  | 10 |  | 10 |
+| $O_3$ |  |  |  | 10 | 10 |
+| Demanda | 5 | 5 | 10 | 10 | |
+
+$$Z^*=5\cdot1+5\cdot2,5+10\cdot2+10\cdot3=87,5$$
+
+**Resposta:** A solução inicial por canto noroeste é 87,5. Ela é degenerada, pois o número de células ocupadas é menor que $m+n–1=6$.
+
+**3. Encontre a solução inicial para o problema de transportes pela regra do custo mínimo. Há algum problema com a solução encontrada?**
+
+| | $D_1$ | $D_2$ | $D_3$ | $D_4$ | Disponibilidade |
+|---|---|---|---|---|---|
+| $O_1$ | 5 |  |  | 5 | 0 |
+| $O_2$ |  |  | 10 |  | 0 |
+| $O_3$ |  | 5 |  | 5 | 0 |
+| Demanda | 0 | 0 | 0 | 0 | |
+
+$$Z^*=5\cdot1+5\cdot2+10\cdot2+5\cdot3+5\cdot5=75$$
+
+**Resposta:** A solução inicial por canto noroeste é 75. Ela é degenerada, pois o número de células ocupadas é menor que $m+n–1=6$.
+
+**4. O quadro de custos abaixo ilustra as demandas de cinco armazéns e o custo de transporte entre as fábricas e armazéns. Encontre a solução inicial pela regra de aproximação de Vogel.**
 
