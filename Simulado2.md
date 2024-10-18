@@ -96,3 +96,39 @@ $$7x_1+2x_2\leq14$$
 
 $$x_1,x_2\geq0$$
 
+- Colocando o modelo na forma padrão:
+
+$$max\ Z=4x_1+3x_2$$
+
+$$sujeito\ a\ (s.t.)$$
+
+$$3x_1+4x_2+x_3=12$$
+
+$$7x_1+2x_2+x_4=14$$
+
+$$x_1,x_2,x_3,x_4\geq0$$
+
+- Montando o tableau:
+
+| | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $b$ |
+|---|---|---|---|---|---|
+| $x_3$ | 3 | 4 | 1 | 0 | 12 |
+| $x_4$ | 7 | 2 | 0 | 1 | 14 |
+| $-Z$ | -4 | -3 | 0 | 0 | 0 |
+
+- A solução inicial é $Z^*=0$, com $x=(0,0,12,14)$. Ainda há coeficientes negativos em $-Z$. Calculando os coeficientes $\theta$, identificando o menor e substituindo por $x_1$:
+
+| | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $b$ | $\theta$ |
+|---|---|---|---|---|---|---|
+| $x_3$ | 3 | 4 | 1 | 0 | 12 | $\dfrac{12}3=4$ |
+| $x_1$ | 7 | 2 | 0 | 1 | 14 | $\dfrac{14}7=2$ |
+| $-Z$ | -4 | -3 | 0 | 0 | 0 | $-$ |
+
+- Igualando o pivô a $1$ e os outros membros da coluna a $0$, por Gauss-Jordan:
+
+| | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $b$ |
+|---|---|---|---|---|---|
+| $x_3$ | 0 | \dfrac{22}7 | 1 | -\dfrac37 | 6 |
+| $x_1$ | 1 | \dfrac27 | 0 | \dfrac17 | 2 |
+| $-Z$ | 0 | -\dfrac{13}7 | 0 | \dfrac47 | 8 |
+
