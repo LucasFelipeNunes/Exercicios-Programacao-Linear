@@ -41,6 +41,8 @@ $$x_1+x_2\geq7$$
 
 $$6x_1+2x_2\geq12$$
 
+$$x_1,x_2\geq0$$
+
 **3.Escreva o quadro inicial do método Simplex para o seguinte modelo de PL:**
 
 $$min\ Z=20x_1+21x_2$$
@@ -53,7 +55,7 @@ $$5x_1+7x_2\geq9$$
 
 $$x_1,x_2\geq0$$
 
-- Modificando a função para forma padrão:
+- Modificando a função para a forma padrão:
 
 $$max\ -Z=-20x_1-21x_2$$
 
@@ -63,5 +65,34 @@ $$4x_1+3x_2-x_3+a_1=2$$
 
 $$5x_1+7x_2-x_4+a_2=9$$
 
-$$x_1,x_2,a_1,a_2\geq0$$
+$$x_1,x_2,x_3,x_4,a_1,a_2\geq0$$
+
+- Encontrando a função auxiliar $W$:
+
+$$min\ W=a_1+a_2=0$$
+
+$$min\ W=(2-4x_1-3x_2+x_3)+(9-5x_1-7x_2+x_4)=0$$
+
+$$min\ W=-9x_1-10x_2+x_3+x_4=-11$$
+
+$$max\ W=9x_1+10x_2-x_3-x_4=11$$
+
+| | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $a_1$ | $a_2$ | $b$ |
+|---|---|---|---|---|---|---|---|
+| $a_1$ | 4 | 3 | -1 | 0 | 1 | 0 | 2 |
+| $a_2$ | 5 | 7 | 0 | -1 | 0 | 1 | 9 |
+| $-Z$ | 20 | 21 | 0 | 0 | 0 | 0 | 0 |
+| $-W$ | -9 | -10 | 1 | 1 | 0 | 0 | -11 |
+
+**4. Resolva o seguinte modelo de PL usando o método Simplex:**
+
+$$max\ Z=4x_1+3x_2$$
+
+$$sujeito\ a\ (s.t.)$$
+
+$$3x_1+4x_2\leq12$$
+
+$$7x_1+2x_2\leq14$$
+
+$$x_1,x_2\geq0$$
 
