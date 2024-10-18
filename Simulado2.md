@@ -132,3 +132,12 @@ $$x_1,x_2,x_3,x_4\geq0$$
 | $x_1$ | 1 | $\dfrac27$ | 0 | $\dfrac17$ | 2 |
 | $-Z$ | 0 | $-\dfrac{13}7$ | 0 | $\dfrac47$ | 8 |
 
+- A solução viável agora é $Z^*=8$, com $x=(2,0,6,0)$. Ainda há coeficientes negativos em $-Z$. Substituindo $x_3$ por $x_2$, já que é a única com coeficiente $\theta$, e fazendo Gauss-Jordan na coluna $x_2$:
+
+| | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $b$ |
+|---|---|---|---|---|---|
+| $x_2$ | 0 | 1 | $\dfrac7{22}$ | $-\dfrac3{22}$ | $\dfrac{21}{11}$ |
+| $x_1$ | 1 | 0 | $-\dfrac1{11}$ | $\dfrac2{11}$ | $\dfrac{16}{11}$ |
+| $-Z$ | 0 | 0 | $\dfrac{13}{22}$ | $\dfrac{7}{22}$ | $\dfrac{127}{11}$ |
+
+- Portanto, a solução ótima é $Z^*=\dfrac{127}{11}$, com $x=\left(\dfrac{16}{11},\dfrac{21}{11},0,0\right)$.
