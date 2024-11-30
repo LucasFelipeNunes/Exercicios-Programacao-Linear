@@ -12,11 +12,19 @@ $$3x1 + 4x2 ≤ 10$$
 
 $$x_1, x_2 ≥ 0\ e\ inteiros$$
 
-Resolvendo o problema $P0$ inicialmente, tem-se que $Z=16,667$ com $x_1=3,333$ e $x_2=0$. Como $x_1$ é a variável com maior valor, ramifica-se a equação pelas restrições $x_1\leq3$, que constará $P1$, e $x_1\geq4$, que constará em $P2$. 
+Resolvendo o problema $P0$ inicialmente, tem-se que $Z=16,667$ com $x_1=3,333$ e $x_2=0$. Como $x_1$ é a variável com maior valor não inteiro, ramifica-se a equação pelas restrições $x_1\leq3$, que constará $P1$, e $x_1\geq4$, que constará em $P2$. 
 
-Resolvendo $P2$ inicialmente, já que contém o maior valor, descobre-se que este ramo da equação não tem solução viável. 
+Resolvendo $P2$ inicialmente, descobre-se que este ramo da equação não tem solução viável. 
 
-Assim, pode-se descartar este ramo e resolver $P1$. Ele resulta em $Z=16
+Assim, pode-se descartar este ramo e resolver $P1$. Ele resulta em $Z=16$, com $x_2=3$ e $x_2=0,25$. Como $x_2$ é a variável com maior valor não inteiro, ramifica-se a equação pelas restrições $x_2\leq0$, que constará em $P3$, e $x_2\geq1$, que constará em $P4$.
+
+Resolvendo $P4$ inicialmente, tem-se $Z=14$ com $x_1=2$ e $x_2=1$. Como todos os valores são inteiros, é o fim deste ramo.
+
+Já em $P3$, tem-se que $Z=15$, com $x_1=3$ e $x_2=0$. Como todos os valores são inteiros, é o fim deste ramo.
+
+Como não sobraram mais ramos, e como a equação é de maximização, a solução ótima é a equação inteira em que $Z$ é maior; ou seja, a equação $P3$ com $Z=15$, $x_1=3$ e $x_2=0$.
+
+![image](https://github.com/user-attachments/assets/a0bf08f8-7ae8-4be0-96bc-387df4c3fb4a)
 
 b. 
 
@@ -27,6 +35,24 @@ $$sujeito\ a\ (s.t.)$$
 $$7x_1 + 3x_2 ≥ 40$$
 
 $$x_1, x_2 ≥ 0\ e\ inteiros$$
+
+Resolvendo o problema $P0$ inicialmente, tem-se que $Z=17,143$ com $x_1=5,714$ e $x_2=0$. Como $x_1$ é a variável com maior valor não inteiro, ramifica-se a equação pelas restrições $x_1\leq5$, que constará em $P1$, e $x_1\geq6$, que constará em $P2$. 
+
+Resolvendo $P1$ inicialmente, tem-se que $Z=25$, com $x_1=5$ e $x_2=1,667$. Como $x_2$ é a variável com maior valor não inteiro, ramifica-se a equação pelas restrições $x_2\leq1$, que constará em $P3$, e $x_2\geq2$, que constará em $P4$.
+
+Resolvendo $P3$ inicialmente, descobre-se que este ramo da equação não tem solução viável. 
+
+Assim, pode-se descartar este ramo e resolver $P4$. Obtém-se que $Z=26$, com $x_1=4,857$ e $x_2=2$. Como $x_1$ é a variável com maior valor não inteiro, ramifica-se a equação pelas restrições $x_1\leq4$, que constará em $P5$, e $x_1\geq5$, que constará em $P6$.
+
+Resolvendo $P5$ inicialmente, obtém-se $Z=36$ com $x_1=4$ e $x_2=4$. Como todas as variáveis são inteiras, é o fim deste ramo.
+
+Resolvendo $P6$ após isso, tem-se que $Z=27$, com $x_1=5$ e $x_2=2$. Como todas as variáveis também são inteiras aqui, é o fim deste ramo.
+
+Por fim, volta-se para resolver $P2$, obtendo $Z=18$, com $x_1=6$ e $x_2=0$. Como todas as variáveis são inteiras, já é também o fim deste ramo.
+
+Como não sobraram mais ramos, e como a equação é de minimização, a solução ótima é a equação inteira em que $Z$ é menor; ou seja, a equação $P2$ com $Z=18$, $x_1=6$ e $x_2=0$.
+
+![image](https://github.com/user-attachments/assets/99adf1e3-2879-4188-80df-d0fe4717d563)
 
 **2. Considere a seguinte matriz de custos:**
 
